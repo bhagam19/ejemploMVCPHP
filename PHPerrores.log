@@ -1,0 +1,53 @@
+[20-May-2023 14:30:11 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:30:11 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 6
+[20-May-2023 14:30:11 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:30:11 America/Bogota] PHP Warning:  require_once(): open_basedir restriction in effect. File(/controllers/login.php) is not within the allowed path(s): (/home/Adolfo/web/bhagamapps.com/public_html:/home/Adolfo/tmp:/bin:/usr/bin:/usr/local/bin:/var/www/html:/tmp:/usr/share:/etc/phpMyAdmin:/etc/phpmyadmin:/var/lib/phpmyadmin:/etc/roundcubemail:/etc/roundcube:/var/lib/roundcube) in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 14
+[20-May-2023 14:30:11 America/Bogota] PHP Warning:  require_once(/controllers/login.php): Failed to open stream: Operation not permitted in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 14
+[20-May-2023 14:30:11 America/Bogota] PHP Fatal error:  Uncaught Error: Failed opening required '/controllers/login.php' (include_path='.:/usr/share/pear:/usr/share/php:/usr/share/pear:/usr/share/php') in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php:14
+Stack trace:
+#0 /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/index.php(11): App->__construct()
+#1 {main}
+  thrown in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 14
+[20-May-2023 14:31:07 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:31:07 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 6
+[20-May-2023 14:31:07 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:31:07 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:35:42 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:35:42 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 6
+[20-May-2023 14:35:42 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:35:42 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:35:53 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:35:53 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 6
+[20-May-2023 14:35:53 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:35:53 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:36:00 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:36:00 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 6
+[20-May-2023 14:36:00 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:36:00 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:39:08 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:39:08 America/Bogota] PHP Warning:  Undefined array key "url" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 5
+[20-May-2023 14:39:08 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 7
+[20-May-2023 14:39:08 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:39:08 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:39:52 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:39:52 America/Bogota] PHP Warning:  Undefined array key "url" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 5
+[20-May-2023 14:39:52 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 7
+[20-May-2023 14:39:52 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:39:52 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:40:33 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:40:33 America/Bogota] PHP Warning:  Undefined array key "url" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 5
+[20-May-2023 14:40:33 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 7
+[20-May-2023 14:40:33 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:40:33 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:41:32 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:41:32 America/Bogota] PHP Warning:  Undefined array key "url" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 5
+[20-May-2023 14:41:32 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 7
+[20-May-2023 14:41:32 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:41:32 America/Bogota] Login::construct -> Inicio de Login 
+[20-May-2023 14:41:47 America/Bogota] Inicio de aplicación web
+[20-May-2023 14:41:47 America/Bogota] PHP Warning:  Undefined array key "url" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 5
+[20-May-2023 14:41:47 America/Bogota] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 7
+[20-May-2023 14:41:47 America/Bogota] APP::construct-> no hay controlador especificado
+[20-May-2023 14:41:47 America/Bogota] Login::construct -> Inicio de Login 
+[21-May-2023 07:30:19 America/Bogota] Inicio de aplicación web
+[21-May-2023 07:30:19 America/Bogota] PHP Parse error:  syntax error, unexpected identifier "if¨" in /home/Adolfo/web/bhagamapps.com/public_html/ejemploMVCPHP/libs/app.php on line 23
