@@ -1,20 +1,18 @@
 <?
-    require_once 'controllers/error.php';
+       
     class App{
         function __construct(){
-            echo $_GET["url"];
             $url = isset($_GET["url"]) ? $_GET ["url"] : null;
             $url = rtrim($url,"/");
             $url = explode("/", $url);
-            //var_dump($url);           
 
-           if (empty($url[0])) {
+            if (empty($url[0])) {
                 error_log('APP::construct-> No hay controlador especificado.');
                 $archivoControlador = 'controllers/login.php';
                 require_once $archivoControlador;
                 $controller = new Login();
-                $controller-> loadModel('Login');
-                $controller-> render();
+                //$controller-> loadModel('Login');
+                //$controller-> render();
                 return false;
            }
 
@@ -40,16 +38,22 @@
 
                             $controller->{$url[1]}($params);
                         }else{
-                                //no tiene parametros así que no llama nada extra jaja un poquito obvio 
+                            //no tiene parametros así que no llama nada extra jaja un poquito obvio 
                             $controller->{$url[1]}();
-                            }
+                        }                            
+                    }else{
+                        //error, no existe el metodo
+                        $controller = new Errores();
                     }
+                }else{
+                    // no hay metodo a cargar, se caga el metodo por default
+                    $controller-> render();
                 }
-           }else{
-                $controller-> render();
-                //no existe el archivo so se mannda el error especificando la inexistencia de este :D
+           }else{|
+                 //n o existe el archivo so se mannda el error especificando la inexistencia de este :D
+                $controller = new Errores();
            }
-        
+           
         }
     }        
 ?>      
